@@ -4,10 +4,10 @@ from tensorflow.keras.preprocessing.text import Tokenizer
 from tensorflow.keras.preprocessing.sequence import pad_sequences
 import numpy as np
 
-model = load_model('/Users/tusharsingharoy/VS Code Files/SOC-AI/my_model.hdf5')
+model = load_model('/SOC-AI/my_model.hdf5')
 tokenizer = Tokenizer()
 
-with open("/Users/tusharsingharoy/VS Code Files/SOC-AI/The_Verdict.txt", "r", encoding = 'utf-8') as f:
+with open("/SOC-AI/The_Verdict.txt", "r", encoding = 'utf-8') as f:
     text = f.read()
 
 index = text.find("I HAD always")
