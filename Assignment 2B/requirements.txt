@@ -2,3 +2,6 @@ langchain-google-genai
 langchain-anthropic
 langchain-huggingface
 gradio
+numpy
+pandas
+dotenv

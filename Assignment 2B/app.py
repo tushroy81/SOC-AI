@@ -3,6 +3,8 @@ from langchain_anthropic import ChatAnthropic
 from langchain_huggingface import HuggingFaceEndpoint, ChatHuggingFace
 from dotenv import load_dotenv
 import gradio as gr
+import numpy as np
+import pandas as pd
 load_dotenv()
 # import os
 # from huggingface_hub import login
@@ -51,8 +53,6 @@ model_list = [[model1,"gemini-1.5-flash",0],[model2,"gemini-1.5-pro",0],[model3,
               [model6,'claude-3-5-sonnet-20240620',0],[model7,"mistralai/Mixtral-8x7B-Instruct-v0.1",0],[model8,"google/gemma-1.1-2b-it",0],[model9,"google/gemma-1.1-7b-it",0],
               [model10,"gemini-1.0-pro",0]]
 
-import numpy as np
-import pandas as pd
 
 def generate_two_different_random_integers():
     random_numbers = np.random.choice(10, size=2, replace=False)
