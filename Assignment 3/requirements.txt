@@ -1,0 +1,6 @@
+langchain-google-genai
+langchain_core
+langchain_google_community
+langchain_community
+dotenv
+gradio
