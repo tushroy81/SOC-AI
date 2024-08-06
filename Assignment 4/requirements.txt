@@ -1,0 +1,8 @@
+langchain_google_genai
+langchain_community
+langchain_experimental
+langchain_huggingface
+langchain_core
+dotenv
+base64
+gradio
